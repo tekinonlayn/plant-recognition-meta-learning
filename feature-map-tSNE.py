@@ -1,3 +1,6 @@
+# Visualization of the feature maps using t-SNE algorithm.
+# Code by Tekin O.
+
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
