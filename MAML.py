@@ -1,3 +1,6 @@
+# First-Order Model Agnostic Meta-Learning algorithm using ResNet18 and CBAM attention module.
+# Coded by Tekin O.
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
