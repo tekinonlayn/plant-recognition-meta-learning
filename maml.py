@@ -2,21 +2,28 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
-from torchvision.datasets import CIFAR10
+from torchvision.datasets import ImageFolder
 import torchvision.transforms as transforms
-
-# Set random seed for reproducibility
-torch.manual_seed(0)
 
 # Define the ResNet18_CBAM model for feature extraction
 embedding_model = ResNet18_CBAM()
 #embedding_model = ResNet18()
 
 # Set device (CPU or GPU)
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda" if torch.cuda.is_available() else "CPU")
 
-# Load CIFAR-10 dataset for meta-learning
-train_dataset = CIFAR10(root="./data", train=True, download=True, transform=transforms.ToTensor())
+# Set the path to the Plant Village dataset
+data_path = "/images"
+torch.manual_seed(0)
+
+# Define the transform for image preprocessing
+transform = transforms.Compose([
+    transforms.Resize((126, 126)),
+    transforms.ToTensor()
+])
+
+# Load the Plant Village dataset for meta-learning
+train_dataset = ImageFolder(root=data_path, transform=transform)
 train_loader = DataLoader(train_dataset, batch_size=1, shuffle=True)
 
 # Define the cross-entropy loss and Adam optimizer for feature extraction
@@ -65,7 +72,7 @@ eval_tasks = 600
 unseen_classes = range(10, 20)
 
 # Create a new dataset for meta-learning
-meta_train_dataset = CIFAR10(root="./data", train=True, download=True, transform=transforms.ToTensor())
+meta_train_dataset = ImageFolder(root=data_path, transform=transform)
 
 # Define the inner loop optimizer
 inner_optimizer = optim.SGD(embedding_model.parameters(), lr=inner_lr)
