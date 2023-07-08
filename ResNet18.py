@@ -1,3 +1,6 @@
+# ResNet18 implementation inspired from: https://github.com/kuangliu/pytorch-cifar
+# Code by Tekin O.
+
 import torch
 import torch.nn as nn
 
