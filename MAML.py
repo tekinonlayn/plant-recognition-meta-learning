@@ -4,6 +4,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 from torchvision.datasets import ImageFolder
 import torchvision.transforms as transforms
+import ResNet_CBAM, ResNet18
 
 # Define the ResNet18_CBAM model for feature extraction
 embedding_model = ResNet18_CBAM()
