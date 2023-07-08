@@ -1,4 +1,4 @@
-# ResNet18 model using CBAM attention module.
+# ResNet18 model using CBAM attention module. Inspired from: https://github.com/elbuco1/CBAM
 # Coded by Tekin O.
 
 import torch
