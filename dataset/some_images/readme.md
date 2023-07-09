@@ -11,6 +11,9 @@
     <td align="center">
       <img src="2-006adb74-934f-448f-a14f-62181742127b___JR_B.Spot 3395.jpg" alt="Image 2" width="256">
     </td>
+     <td align="center">
+      ...
+    </td>
   </tr>
   <tr>
     <td align="center">
@@ -21,6 +24,15 @@
     </td>
     <td align="center">
       <img src="4-00208a93-7687-4e8c-b79e-3138687e0f38___JR_HL 7955.jpg" alt="Image 4" width="256">
+    </td>
+    <td align="center">
+      ...
+    </td>
+   
+  </tr>
+  <tr>
+    <td align="center">
+      ...
     </td>
   </tr>
   <tr>
