@@ -26,3 +26,55 @@
     </td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Row 1 Name</strong>
+    </td>
+    <td align="center">
+      <strong>Row 1 Image</strong>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      Row 2 Name
+    </td>
+    <td align="center">
+      <img src="image1.jpg" alt="Image 1" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      Row 3 Name
+    </td>
+    <td align="center">
+      <img src="image2.jpg" alt="Image 2" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      Row 4 Name
+    </td>
+    <td align="center">
+      <img src="image3.jpg" alt="Image 3" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      Row 5 Name
+    </td>
+    <td align="center">
+      <img src="image4.jpg" alt="Image 4" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      Row 6 Name
+    </td>
+    <td align="center">
+      <img src="image5.jpg" alt="Image 5" width="300">
+    </td>
+  </tr>
+</table>
+
