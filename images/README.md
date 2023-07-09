@@ -1,4 +1,4 @@
-PlantVillage dataset is about 700 MB and can be downloaded from https://www.kaggle.com/datasets/emmarex/plantdisease
+	PlantVillage dataset is about 700 MB and can be downloaded from https://www.kaggle.com/datasets/emmarex/plantdisease
 
 "image" directory should be like this format:
 
