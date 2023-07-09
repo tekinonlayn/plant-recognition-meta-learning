@@ -1,8 +1,8 @@
-# plant-recognition-meta-learning
-For a journal article.
+# Attention-Based Meta-Learning for Few-Shot Classification of Plant Diseases
+## Abstract
+Plant disease recognition using images is crucial in agriculture, but collecting such images is difficult and expensive. Classifying with few samples is thus necessary, but the performance of deep learning models used for classification typically declines with few samples. To address this issue, meta-learning approaches have been developed. Meta-learning approaches use episodic training methodology, in contrast to deep learning. Typically, convolutional networks are employed in meta-learning models for the purpose of feature extraction from samples. In this study, a Convolutional Block Attention Module (CBAM) attention mechanism was integrated into the ResNet18 model to facilitate feature extraction from plant images. The CBAM mechanism was used to give more weight to the critical and relevant parts of the image, similar to the way humans perceive images. Our proposed model utilized the Model-Agnostic Meta-Learning (MAML) algorithm, an optimization-based meta-learning method, to classify embeddings obtained through our approach with a classical linear classifier. Our model achieved exceptional performance, with an accuracy of 96.01% in 10-way 20-shot classification on the Plant Village dataset, outperforming previous state-of-the-art models. These findings suggest that our proposed model has potential for detecting plant diseases in agricultural settings.
 
 # Code Repository
-
 This repository contains the implementation of various components and algorithms related to the First-Order Model Agnostic Meta-Learning (FOMAML) algorithm. It includes the following files:
 
 ## MAML.py
