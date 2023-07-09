@@ -22,6 +22,19 @@ File: [MAML.py](MAML.py)
 
 Implementation of the First-Order Model Agnostic Meta-Learning (FOMAML) algorithm. This file contains the main script that implements the FOMAML algorithm using ResNet18 and CBAM attention module. It includes the training and evaluation loops for meta-learning tasks.
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/maml.jpg" alt="MAML Scheme" width="800">
+    </td>
+  </tr>
+   <tr>
+    <td align="center">
+      MAML Scheme
+    </td>
+  </tr>
+</table>
+
 File: [ResNet_CBAM.py](ResNet_CBAM.py)
 
 Implementation of the ResNet18 model using the Convolutional Block Attention Module (CBAM). This file provides the ResNet18_CBAM class, which incorporates the CBAM attention module into the ResNet18 architecture. The code for this module is inspired by [elbuco1/CBAM](https://github.com/elbuco1/CBAM).
@@ -34,9 +47,35 @@ File: [feature-map-tSNE.py](feature-map-tSNE.py)
 
 Visualization of the feature maps using the t-SNE algorithm. This file demonstrates how to extract feature maps from a model (such as ResNet18_CBAM) and visualize them using t-SNE for dimensionality reduction and scatter plot visualization.
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/tsne_vis.jpg" alt="t-SNE Visualization" width="800">
+    </td>
+  </tr>
+   <tr>
+    <td align="center">
+      The t-SNE visualizations of feature maps obtained from different backbone models.
+    </td>
+  </tr>
+</table>
+
 File: [heatmap-visualization.py](heatmap-visualization.py)
 
 Heatmap visualization for the attention features of the ResNet18_CBAM model. This file provides an example of how to extract attention features from the ResNet18_CBAM model and visualize them as heatmaps, providing insights into the model's attention mechanisms.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/heatmap_vis.jpg" alt="Heatmap Visualization" width="800">
+    </td>
+  </tr>
+   <tr>
+    <td align="center">
+      Visualization of attention features using heat maps.
+    </td>
+  </tr>
+</table>
 
 Please refer to the individual files for more detailed information, usage instructions, and specific code implementations.
 
