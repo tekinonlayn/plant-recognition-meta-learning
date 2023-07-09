@@ -11,7 +11,7 @@
     <td align="center">
       <img src="2-006adb74-934f-448f-a14f-62181742127b___JR_B.Spot 3395.jpg" alt="Image 2" width="256">
     </td>
-     <td align="center">
+     <td align="center" width="256">
       ...
     </td>
   </tr>
