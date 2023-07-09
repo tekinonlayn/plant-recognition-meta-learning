@@ -1,7 +1,10 @@
 # Some plant examples
 
 <table>
-  <tr>Pepper bell Bacterial spot:
+  <tr>
+    <td align="center">
+      Pepper bell Bacterial spot:
+    </td>
     <td align="center">
       <img src="1-0022d6b7-d47c-4ee2-ae9a-392a53f48647___JR_B.Spot 8964.jpg" alt="Image 1" width="256">
     </td>
