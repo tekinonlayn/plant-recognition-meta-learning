@@ -27,6 +27,10 @@ Heatmap visualization for the attention features of the ResNet18_CBAM model. Thi
 
 Please refer to the individual files for more detailed information, usage instructions, and specific code implementations.
 
+## Dataset
+
+We used the PlantVillage [dataset](dataset), and here give some information about it.
+
 ## License
 
 This code repository is licensed under the [MIT License](LICENSE).
