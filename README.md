@@ -5,7 +5,7 @@ Plant disease recognition using images is crucial in agriculture, but collecting
 <table>
   <tr>
     <td align="center">
-      <img src="figures/graphical_abs.jpg" alt="Graphical abstract" width="400">
+      <img src="figures/graphical_abs.jpg" alt="Graphical abstract" width="800">
     </td>
   </tr>
    <tr>
