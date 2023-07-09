@@ -45,5 +45,8 @@
     <td align="center">
       <img src="6-000bf685-b305-408b-91f4-37030f8e62db___GH_HL Leaf 308.1.jpg" alt="Image 6" width="256">
     </td>
+     <td align="center">
+      ...
+    </td>
   </tr>
 </table>
