@@ -30,7 +30,7 @@ Implementation of the First-Order Model Agnostic Meta-Learning (FOMAML) algorith
   </tr>
    <tr>
     <td align="center">
-      MAML Scheme
+      The MAML Scheme
     </td>
   </tr>
 </table>
