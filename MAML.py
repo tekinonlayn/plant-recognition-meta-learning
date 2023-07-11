@@ -17,7 +17,7 @@ embedding_model = ResNet18_CBAM()
 device = torch.device("cuda" if torch.cuda.is_available() else "CPU")
 
 # Set the path to the Plant Village dataset
-data_path = "/images"
+data_path = "/dataset"
 torch.manual_seed(0)
 
 # Define the transform for image preprocessing
